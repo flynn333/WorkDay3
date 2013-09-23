@@ -32,23 +32,26 @@ Partial Class Form1
         '
         'txtFirstNum
         '
-        Me.txtFirstNum.Location = New System.Drawing.Point(155, 26)
+        Me.txtFirstNum.Location = New System.Drawing.Point(116, 21)
+        Me.txtFirstNum.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtFirstNum.Name = "txtFirstNum"
-        Me.txtFirstNum.Size = New System.Drawing.Size(100, 22)
+        Me.txtFirstNum.Size = New System.Drawing.Size(76, 20)
         Me.txtFirstNum.TabIndex = 0
         '
         'txtSecondNum
         '
-        Me.txtSecondNum.Location = New System.Drawing.Point(155, 54)
+        Me.txtSecondNum.Location = New System.Drawing.Point(116, 44)
+        Me.txtSecondNum.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSecondNum.Name = "txtSecondNum"
-        Me.txtSecondNum.Size = New System.Drawing.Size(100, 22)
+        Me.txtSecondNum.Size = New System.Drawing.Size(76, 20)
         Me.txtSecondNum.TabIndex = 1
         '
         'btnFindLarger
         '
-        Me.btnFindLarger.Location = New System.Drawing.Point(79, 91)
+        Me.btnFindLarger.Location = New System.Drawing.Point(59, 74)
+        Me.btnFindLarger.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnFindLarger.Name = "btnFindLarger"
-        Me.btnFindLarger.Size = New System.Drawing.Size(154, 28)
+        Me.btnFindLarger.Size = New System.Drawing.Size(116, 23)
         Me.btnFindLarger.TabIndex = 2
         Me.btnFindLarger.Text = "Find Larger Number"
         Me.btnFindLarger.UseVisualStyleBackColor = True
@@ -56,40 +59,44 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(60, 29)
+        Me.Label1.Location = New System.Drawing.Point(45, 24)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(89, 17)
+        Me.Label1.Size = New System.Drawing.Size(66, 13)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "First Number"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(39, 57)
+        Me.Label2.Location = New System.Drawing.Point(29, 46)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 17)
+        Me.Label2.Size = New System.Drawing.Size(84, 13)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Second Number"
         '
         'txtResult
         '
-        Me.txtResult.Location = New System.Drawing.Point(42, 135)
+        Me.txtResult.Location = New System.Drawing.Point(32, 110)
+        Me.txtResult.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtResult.Name = "txtResult"
         Me.txtResult.ReadOnly = True
-        Me.txtResult.Size = New System.Drawing.Size(213, 22)
+        Me.txtResult.Size = New System.Drawing.Size(161, 20)
         Me.txtResult.TabIndex = 5
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 194)
+        Me.ClientSize = New System.Drawing.Size(219, 158)
         Me.Controls.Add(Me.txtResult)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnFindLarger)
         Me.Controls.Add(Me.txtSecondNum)
         Me.Controls.Add(Me.txtFirstNum)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.Text = "FindLarger"
         Me.ResumeLayout(False)
